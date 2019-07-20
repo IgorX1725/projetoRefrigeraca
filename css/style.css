@@ -221,6 +221,10 @@ li > a:only-child:after {
     width: 100px;
 }
 
+#microwave{
+    width: 140px;
+    padding: 10px;
+}
 
 /* Media Queries
 --------------------------------------------- */
