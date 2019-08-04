@@ -226,23 +226,17 @@ li > a:only-child:after {
     padding: 10px;
 }
 
-.box_carrossel{
-    width: 800px;
-    margin: 5% auto;
-    border: #000 solid;
-    position: relative;
-    height: 80px;;
-}
+
 .carrossel{
     width: 60%;
     height: 80px;
     list-style: none;
-    margin:0 auto;
+    margin: 0 auto;
 }
 .item{
     float: left;
     width: 150px;
-    height: 90px;
+    height: 5vw;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -266,6 +260,10 @@ li > a:only-child:after {
 
     nav {
         margin: 0;
+    }
+
+    .carrossel{
+        margin-top:50px;
     }
 
     /* Hide the navigation menu by default */
