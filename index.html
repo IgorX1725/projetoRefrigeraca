@@ -33,7 +33,10 @@
 	<meta name="theme-color" content="#ffffff">
 	<!--//favicon-->
 	<!--slider-->
-	<script src="./scripts/slide.js"></script>
+	<link rel="stylesheet" href="carrossel/slick.css">
+2	<link rel="stylesheet" href="carrossel/slick-theme.css">
+
+	
 	<!--//slider-->
 </head>
 <body>
@@ -69,7 +72,7 @@
 </div>
 <!-- //banner -->	
 <!-- news -->
-<section class="news py-5" id="about">
+	<section class="news py-5" id="about">
 		<div class="container py-lg-5">
 			<div class="w3l_head">
 				<h3 class="heading text-center">Quem somos</h3>
@@ -80,30 +83,28 @@
 				
 			<p class="text-center subs1">A LSP SOLUÇÕES É UMA EMPRESA FOCADA EM MANUTENÇÃO DE ELETROELETRÔNICOS REFRIGERAÇÃO E AR CONDICIONADO EM GERAL COM EXPERIÊNCIA NO RAMO HÁ MAIS DE 10 ANOS, COM GARANTA DE UMA MÃO DE OBRA QUALIFICADA, AGÍL E EFICAZ. TODO O NOSSO SERVIÇO É FOCADO NA SATISFAÇÃO DE NOSSOS CLIENTES. 
 					PRESTAMOS SERVIÇOS PARA CAMPINAS E REGIÃO! ENTRE EM CONTATO CONOSCO PARA REALIZARMOS UMA VISITA TÉCNICA..</p>
-					<div class="row panel">
-						<ul class="itens">
-							<li class="item">
-								<img src="./images/electrolux.png">
-							</li>
-							<li class="item">
-								<img src="./images/hitachi.png">
-							</li>
-							<li class="item">
-								<img src="./images/carrier.png">
-							</li>
-							<li class="item">
-								<img src="./images/Elgin.png">
-							</li>
-							<li class="item">
-								<img src="./images/consul.png">
-							</li>
-							<li class="item">
-								<img src="./images/lg.png">
-							</li>
-						</ul>
-				</div>
-				</div>
-				</section>
+			</div>
+			<div class="slider demo carrossel">
+					<div class="item">
+						<img  src="./images/electrolux.png">
+					</div>
+					<div class="item">
+						<img  src="./images/hitachi.png">
+					</div>
+					<div class="item">
+						<img src="./images/carrier.png">
+					</div>
+					<div class="item">
+						<img src="./images/Elgin.png">
+					</div>	
+					<div class="item">
+						<img src="./images/consul.png">
+					</div>
+					<div class="item">
+						<img src="./images/lg.png">
+					</div>
+		</div>
+	</section>
 				<!-- //news -->
 				<!-- what we do -->
 				<section class="wedo py-5" id="services">
@@ -188,5 +189,16 @@
 		</div>
 	</div>
 	 <!-- //foot-1 -->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="/carrossel/slick.js"></script>
+	<script>
+	$(document).ready(function(){
+ 	 $('.demo').slick({
+		autoplay: true,
+		autoplaySpeed: 3000,
+		slidesToShow: 4
+	  });
+	});
+	</script>
 </body>
 </html>
