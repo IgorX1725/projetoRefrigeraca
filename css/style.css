@@ -22,6 +22,10 @@ body a{
 	-ms-transition:0.5s all;
 	cursor:pointer !important;
 }
+.grid-services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%
+}
 button,.btn{
 	cursor:pointer !important;
 }
@@ -494,6 +498,9 @@ p.main_p {
     color: #777;
     font-weight: 300;
 }
+.about-info{
+    margin-top: 5%;
+}
 .about-info span {
     color: #ffb500;
     font-size: 2.7em;
@@ -868,7 +875,8 @@ a.btn-mod {
 	}
 	.form-title {
 		font-size: 20px;
-	}
+    }
+    
 }
 
 form#contact-form label {
@@ -1085,9 +1093,6 @@ h2.tittle {
 .agile_banner_info {
     padding: 24em 0em 0em;
 }
-.about-info.about-info2 {
-    margin: 2em 0;
-}
 .agile_banner_info1 h2 {
     font-size: 1.3em !important;
 }
@@ -1146,6 +1151,11 @@ h2.tittle {
 }
 .agile_banner_info {
     padding: 20em 0em 0em;
+
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%
 }
 }
 @media screen and (max-width: 480px) {
@@ -1153,7 +1163,7 @@ h2.tittle {
 		font-size: 2.2em !important;
 	}
 	.banner_agile_para p {
-		font-size: 14px !important;
+		font-size: 1em !important;
 		line-height: 1.8em;
 	}
 	h2.heading, h3.heading {
@@ -1175,10 +1185,14 @@ section.blog_w3l h3 {
     font-size: 1.1em !important;
 }
 .banner_agile_para h2 {
-    font-size: 1.1em !important;
+    font-size: 1em !important;
 }
 .banner, .banner-layer {
     min-height: 446px;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%
 }
 }
 @media screen and (max-width: 440px) {
@@ -1190,6 +1204,10 @@ section.blog_w3l h3 {
 }
 .banner1 {
     min-height: 200px;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%
 }
 }
 @media screen and (max-width: 414px) {
@@ -1237,6 +1255,10 @@ nav.mnu {
 .banner, .banner-layer {
     min-height: 400px;
 }
+.grid-services{
+    display: grid;
+    grid-template-columns: 100%
+}
 }
 @media screen and (max-width: 384px) {
 	.team-grids, .pricing-layer {
@@ -1250,6 +1272,10 @@ nav.mnu {
 	}
 	.banner1 {
     min-height: 180px;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 100%
 }
 }
 @media screen and (max-width: 375px) {
@@ -1347,7 +1373,7 @@ nav.mnu {
     padding: 8px 20px;
 }
 .banner_agile_para h2 {
-    font-size: 1em !important;
+    font-size: 0.5em !important;
 }
 p.subs1,p.subs {
     font-size: 0.85em !important;
@@ -1355,6 +1381,10 @@ p.subs1,p.subs {
 .about-info-grids h4 {
     font-size: 1.4em !important;
     margin: 16px 0;
+}
+.grid-services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%
 }
 }
 
