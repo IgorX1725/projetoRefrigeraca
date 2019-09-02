@@ -387,6 +387,7 @@ li > a:only-child:after {
         display: block;
         width: 94%;
     }
+    
 }
 /* header */
  h2.tittle {
@@ -1155,7 +1156,7 @@ h2.tittle {
 }
 .grid-services{
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%
+    grid-template-columns: 50% 50%
 }
 }
 @media screen and (max-width: 480px) {
@@ -1192,7 +1193,7 @@ section.blog_w3l h3 {
 }
 .grid-services{
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%
+    grid-template-columns: 50% 50%
 }
 }
 @media screen and (max-width: 440px) {
@@ -1207,7 +1208,7 @@ section.blog_w3l h3 {
 }
 .grid-services{
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%
+    grid-template-columns: 50% 50%
 }
 }
 @media screen and (max-width: 414px) {
@@ -1384,7 +1385,7 @@ p.subs1,p.subs {
 }
 .grid-services{
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%
+    grid-template-columns: 100%
 }
 }
 
