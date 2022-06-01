@@ -41,18 +41,21 @@
 <body>
 <header>	
 	<nav class="mnu">
-		<div class="container">
-            <div class="logo" id="logo">
-				<h1><a href="index.html"><img src="./images/logo.png" alt="logo"> </a></h1>
+		<div class="container d-flex flex-lg-row justify-content-lg-between justify-content-md-center flex-column align-items-center flex-nowrap">
+            <div class="logo d-flex justify-content-center" id="logo">
+				<h1><a href="index.html"><img class="img-fluid" src="./images/logo.png" alt="logo"> </a></h1>
             </div>
-				<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+				<label for="drop" class="toggle mt-3"><span class="fa fa-bars"></span></label>
                 <input type="checkbox" id="drop">
-                    <ul class="menu mt-1">
-                        <li class="mr-lg-4 mr-3 active"><a href="index.html">Home</a></li>
-                        <li class="mr-lg-4 mr-3"><a href="#about" class="scroll">Sobre</a></li>
-						<li class="mr-lg-4 mr-3"><a href="#services" class="scroll">Serviços</a></li>
-						<li><a href="#contact" class="scroll"><i class="fa fa-phone" aria-hidden="true"> </i> Contato (19) 3241-1391</div></a></li>
-					</ul>
+				<ul class="menu mt-1 d-md-flex align-items-center d-xs-none mt-md-3">
+					<li class="mr-lg-4 mr-3 active"><a href="index.html">Home</a></li>
+					<li class="mr-lg-4 mr-3"><a href="#about" class="scroll">Sobre</a></li>
+					<li class="mr-lg-4 mr-3"><a href="#services" class="scroll">Serviços</a></li>
+					<li class="mr-lg-4 mr-3" style="font-size:14px">
+						<a href="tel:1932411391"><i class="fa fa-phone" aria-hidden="true"> </i> &nbsp (19) 3241-1391</a></br>
+						<a href="https://api.whatsapp.com/send?phone=5519988015204" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"> </i> &nbsp (19) 98801-5204</a><br>
+					</li>
+				</ul>
 		</div>
 	</nav>
 </header>
